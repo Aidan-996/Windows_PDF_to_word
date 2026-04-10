@@ -4,6 +4,16 @@
 
 ---
 
+## 效果展示
+
+![主界面](screenshots/图示01.png)
+
+![转换效果](screenshots/图示02.png)
+
+![输出选项](screenshots/图示03.png)
+
+---
+
 ## 功能一览
 
 - **普通转换** — 文字版 PDF 直接提取内容转 Word，保留表格、目录、分页
@@ -17,7 +27,7 @@
 
 ### 方法一：直接运行（推荐）
 
-下载 Release 中的压缩包，解压后双击 `PDF转换Word智能工具v1.0.exe` 即可使用。
+前往 [Releases](https://github.com/Aidan-996/Windows_PDF_to_word/releases) 页面下载最新版压缩包，解压后双击 `PDF转换Word智能工具v1.0.exe` 即可使用。
 
 ### 方法二：从源码运行
 
@@ -41,7 +51,7 @@ build.bat
 ## 项目结构
 
 ```
-PDF-to-Word/
+Windows_PDF_to_word/
 ├── pdf_to_word.py        # 入口文件
 ├── build.bat             # PyInstaller 打包脚本
 ├── version_info.py       # exe 版本信息
@@ -64,10 +74,6 @@ PDF-to-Word/
 - 普通转换：无额外要求
 - OCR 模式：需要联网安装 easyocr（首次使用时自动安装）
 
-## 截图
-
-启动后添加 PDF 文件，点击「开始转换」即可。输出默认保存在 `我的文档/PDFPai/` 目录。
-
 ---
 
 ## 开源协议
@@ -77,7 +83,7 @@ PDF-to-Word/
 **但请保留原作者版权信息：**
 
 ```
-Copyright © 2025 Hum0ro. All rights reserved.
+Copyright (c) 2025 Hum0ro. All rights reserved.
 作者VX：XNHSDJ
 Hum0ro & Jack
 ```
@@ -86,6 +92,6 @@ Hum0ro & Jack
 
 ---
 
-> **Copyright © 2025 Hum0ro & Jack. All rights reserved.**
+> **Copyright (c) 2025 Hum0ro & Jack. All rights reserved.**
 >
 > 作者VX：XNHSDJ
